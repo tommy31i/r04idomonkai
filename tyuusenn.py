@@ -3,7 +3,7 @@
 import random
 import pygame
 
-I_class_number = [42, 43, 38, 37, 40]
+I_class_number = [42, 43, 38, 37, 40]#!各クラス人数入力
 max_population = 0
 for i in range(0, 4):
     if max_population < I_class_number[i]:
@@ -44,10 +44,10 @@ def judge_grade(grade):
         return True
     else:
         return False
-    
 
-percent_all = 100
-percent_1I = 40
+
+percent_all = 100#*全ての確率
+percent_1I = 40#*1iの確率
 percent_other = int(proportion(percent_all, percent_1I))
 
 while True:
