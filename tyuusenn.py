@@ -47,7 +47,7 @@ def judge_grade(grade):
 
 
 percent_all = 100#*全ての確率
-percent_1I = 40#*1iの確率
+percent_1I = 25#*1iの確率
 percent_other = int(proportion(percent_all, percent_1I))
 
 while True:
