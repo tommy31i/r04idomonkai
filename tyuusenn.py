@@ -1,5 +1,6 @@
 #現在の作業ディレクトリに効果音のファイルを格納してください
 # pip install pygame を実行してください
+
 import random
 import pygame
 
@@ -26,8 +27,8 @@ def judge(grade):
         else:
             I_table[grade][number]=1
             pygame.mixer.init()
-            pygame.mixer.music.load('nc38022.mp3') #('効果音のファイル名')
-            pygame.mixer.music.play()
+            #pygame.mixer.music.load('nc38022.mp3') #('効果音のファイル名')
+            #pygame.mixer.music.play()
             print(grade, end="")
             print('I', end="")
             print(number)
