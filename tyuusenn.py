@@ -1,6 +1,6 @@
 #現在の作業ディレクトリに効果音のファイルを格納してください
 # pip install pygame を実行してください
-
+#!テスト完了
 import random
 import pygame
 
